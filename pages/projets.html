@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mes projets</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="identite">
+                    <span class="prenom">SERGE EDEM</span>
+                    <span class="nom">ALI</span>
+                </div>
+                <button class="menu-toggle" aria-label="Ouvrir le menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu">
+                    <li><a href="../index.html">ACCUEIL</a></li>
+                    <li><a href="apropos.html">A PROPOS</a></li>
+                    <li><a href="competences.html">COMPETENCES</a></li>
+                    <li><a href="parcours.html">PARCOURS</a></li>
+                    <li><a href="projets.html" class="active">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero-projets">
+                <h2>CE QUE JE CONSTRUIS</h2>
+                <h1>MES PROJETS</h1>
+                <p>
+                    Un aperçu de mes réalisations actuelles et des projets que je prévois
+                    de développer prochainement.
+                </p>
+            </section>
+
+            <!-- PROJET ACTUEL -->
+            <section class="section-stack">
+                <h2>PROJET ACTUEL</h2>
+                <div class="carte-projet">
+                    <div class="projet-badge en-cours">En cours</div>
+                    <h3>Portfolio personnel</h3>
+                    <p>
+                        Ce site même : un portfolio multi-pages construit en HTML, CSS et JavaScript.
+                        Design responsive, formulaire de contact fonctionnel, animations au scroll —
+                        mon premier vrai projet complet, pensé et codé de A à Z.
+                    </p>
+                    <div class="projet-tags">
+                        <span class="tag">HTML</span>
+                        <span class="tag">CSS</span>
+                        <span class="tag">JavaScript</span>
+                    </div>
+                    <a href="https://github.com/Der-Furst-ux" target="_blank" rel="noopener noreferrer" class="btn-explorer">
+                        Voir sur GitHub <span>></span>
+                    </a>
+                </div>
+            </section>
+
+            <!-- ROADMAP -->
+            <section class="section-stack">
+                <h2>PROCHAINEMENT</h2>
+                <p class="intro-section">Les projets que je prévois de développer pour continuer à progresser.</p>
+
+                <div class="roadmap-container">
+
+                    <div class="carte-roadmap" style="--accent: #4ade80;">
+                        <div class="projet-badge prevu">Prévu</div>
+                        <i class="fa-solid fa-seedling"></i>
+                        <h3>Gestion de ferme agricole</h3>
+                        <p>Application pour suivre les cultures, le bétail et les tâches d'une exploitation agricole.</p>
+                    </div>
+
+                    <div class="carte-roadmap" style="--accent: #72b7ff;">
+                        <div class="projet-badge prevu">Prévu</div>
+                        <i class="fa-solid fa-futbol"></i>
+                        <h3>Gestion d'équipe de foot</h3>
+                        <p>Application pour gérer un effectif, planifier les entraînements et suivre les statistiques des joueurs.</p>
+                    </div>
+
+                    <div class="carte-roadmap" style="--accent: #f0a020;">
+                        <div class="projet-badge prevu">Prévu</div>
+                        <i class="fa-solid fa-hotel"></i>
+                        <h3>Gestion d'hôtel</h3>
+                        <p>Application pour gérer les réservations, les chambres disponibles et le suivi des clients.</p>
+                    </div>
+
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Serge Edem ALI. Tous les droits réservés.</p>
+            <a href="https://github.com/Der-Furst-ux" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </footer>
+
+        <script src="../js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> page descriptive de moi</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="identite">
+                    <span class="prenom">SERGE EDEM</span>
+                    <span class="nom">ALI</span>
+                </div>
+                <button class="menu-toggle" aria-label="Ouvrir le menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="menu">
+                    <li><a href="../index.html">ACCUEIL</a></li>
+                    <li><a href="apropos.html">A PROPOS</a></li>
+                    <li><a href="competences.html">COMPETENCES</a></li>
+                    <li><a href="parcours.html">PARCOURS</a></li>
+                    <li><a href="projets.html">PROJECTS</a></li>
+                    <li><a href="contact.html" class="active">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+            
+            <main>
+                <section class="hero-contact">
+                    <h1>RESTONS EN CONTACT</h1>
+                    <p>
+                        Étudiant en Génie Logiciel toujours partant pour échanger sur un projet, 
+                        une opportunité de stage ou simplement pour discuter tech. N'hésite pas à me contacter.
+                    </p>
+                </section>
+                <section class="section-contact">
+                    <div class="lien">
+                        <div class="lien-contact">
+                            <a href="#"><i class="fa-brands fa-discord"></i> Discord</a>
+                            <a href="#"><i class="fa-brands fa-x-twitter"></i> X</a>
+                            <a href="https://www.linkedin.com/in/serge-edem-ali-57932a433?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="mailto:sergealie04@gmail.com"><i class="fa-solid fa-envelope"></i> sergealie04@gmail.com</a>
+                            <a href="https://github.com/Der-Furst-ux" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                    <div class="photo-edem">
+                        <img src="../assets/images/ghost.jpg" alt="Serge Edem Ali">
+                    </div>
+                </section>
+                <section class="form-contact">
+                    <h2>Envoyez-moi un message</h2>
+                    <form id="contactForm">
+                        <div class="champ">
+                            <label for="nom">Nom</label>
+                            <input type="text" id="nom" name="nom" required>
+                        </div>
+                        <div class="champ">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="champ">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                            <button type="submit" class="btn-explorer">Envoyer</button>
+                            <p id="formStatus"></p>
+                    </form>
+                </section>
+            </main>
+        <footer>
+            <p>&copy; 2026 Serge Edem ALI. Tous les droits réservés.</p>
+            <a href="https://github.com/Der-Furst-ux" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </footer>
+        <script src="../js/script.js"></script>
+    </body>
+</html>
