@@ -644,6 +644,10 @@ button.btn-explorer {
         width: 310px;
         height: 370px;
     }
+    .photo-edem img{
+        width:280px;
+        height: 350px;
+    }
     
 }   
 
