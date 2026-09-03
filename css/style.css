@@ -448,14 +448,14 @@ footer a {
 .photo-serge::after {
     content: "";
     position:absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     top: 15%;
     right: 8%;
     background-color: #72b7ff;
     border-radius: 50%;
-    box-shadow: 0 0 10px #72b7ff;
-    z-index: 1;
+    box-shadow: 0 0 20px #72b7ff;
+    z-index: 2;
 }
 
 @media (max-width: 768px) {
@@ -465,6 +465,14 @@ footer a {
     }
     .me{
         order: 1;
+    }
+    .photo-serge img{
+        width:280px;
+        height: 350px;
+    }
+    .photo-serge::before {
+        width:310px;
+        height: 370px;
     }
     .photo-serge{
         display: flex;
@@ -510,8 +518,9 @@ footer a {
 
 .photo-edem {
     position: relative;
-    width: fit-content;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lien-contact a {
@@ -553,14 +562,14 @@ footer a {
 .photo-edem::after {
     content: "";
     position:absolute;
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     top: 15%;
     right: 8%;
     background-color: #72b7ff;
     border-radius: 50%;
-    box-shadow: 0 0 10px #72b7ff;
-    z-index: 1;
+    box-shadow: 0 0 20px #72b7ff;
+    z-index: 2;
 }
 
 /* Formulaire de contact */
@@ -626,11 +635,16 @@ button.btn-explorer {
     .lien {
         order: 1;
     }
-    .photo-serge{
+    .photo-edem{
         display: flex;
         justify-content: center;
         order: 2;
     }
+    .photo-edem::before{
+        width: 310px;
+        height: 370px;
+    }
+    
 }   
 
 /* Page parcours */
@@ -651,6 +665,7 @@ button.btn-explorer {
     height: 90px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top;
     border: 3px solid #72b7ff;
     flex-shrink: 0;
 }
